@@ -22,6 +22,14 @@
 		71C0E88118CBF9E100A2E476 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C0E86018CBF9E100A2E476 /* UIKit.framework */; };
 		71C0E88918CBF9E100A2E476 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71C0E88718CBF9E100A2E476 /* InfoPlist.strings */; };
 		71C0E88B18CBF9E100A2E476 /* test2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0E88A18CBF9E100A2E476 /* test2Tests.m */; };
+		71C0E89518CC0B2100A2E476 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C0E89418CC0B2100A2E476 /* CoreBluetooth.framework */; };
+		71C0E89718CC16B400A2E476 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C0E89618CC16B400A2E476 /* CoreLocation.framework */; };
+		71C0E8A318D18EEA00A2E476 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0E89A18D18EEA00A2E476 /* FMDatabase.m */; };
+		71C0E8A418D18EEA00A2E476 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0E89C18D18EEA00A2E476 /* FMDatabaseAdditions.m */; };
+		71C0E8A518D18EEA00A2E476 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0E89E18D18EEA00A2E476 /* FMDatabasePool.m */; };
+		71C0E8A618D18EEA00A2E476 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0E8A018D18EEA00A2E476 /* FMDatabaseQueue.m */; };
+		71C0E8A718D18EEA00A2E476 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0E8A218D18EEA00A2E476 /* FMResultSet.m */; };
+		71C0E8A918D18F0800A2E476 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C0E8A818D18F0800A2E476 /* libsqlite3.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,19 @@
 		71C0E88618CBF9E100A2E476 /* test2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test2Tests-Info.plist"; sourceTree = "<group>"; };
 		71C0E88818CBF9E100A2E476 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71C0E88A18CBF9E100A2E476 /* test2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test2Tests.m; sourceTree = "<group>"; };
+		71C0E89418CC0B2100A2E476 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		71C0E89618CC16B400A2E476 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71C0E89918D18EEA00A2E476 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		71C0E89A18D18EEA00A2E476 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		71C0E89B18D18EEA00A2E476 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		71C0E89C18D18EEA00A2E476 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		71C0E89D18D18EEA00A2E476 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		71C0E89E18D18EEA00A2E476 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		71C0E89F18D18EEA00A2E476 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		71C0E8A018D18EEA00A2E476 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		71C0E8A118D18EEA00A2E476 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		71C0E8A218D18EEA00A2E476 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		71C0E8A818D18F0800A2E476 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C0E8A918D18F0800A2E476 /* libsqlite3.0.dylib in Frameworks */,
+				71C0E89718CC16B400A2E476 /* CoreLocation.framework in Frameworks */,
+				71C0E89518CC0B2100A2E476 /* CoreBluetooth.framework in Frameworks */,
 				71C0E85F18CBF9E100A2E476 /* CoreGraphics.framework in Frameworks */,
 				71C0E86118CBF9E100A2E476 /* UIKit.framework in Frameworks */,
 				71C0E85D18CBF9E100A2E476 /* Foundation.framework in Frameworks */,
@@ -84,6 +108,7 @@
 		71C0E85018CBF9E100A2E476 = {
 			isa = PBXGroup;
 			children = (
+				71C0E89818D18EA200A2E476 /* FMDatabase */,
 				71C0E86218CBF9E100A2E476 /* test2 */,
 				71C0E88418CBF9E100A2E476 /* test2Tests */,
 				71C0E85B18CBF9E100A2E476 /* Frameworks */,
@@ -103,6 +128,9 @@
 		71C0E85B18CBF9E100A2E476 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71C0E8A818D18F0800A2E476 /* libsqlite3.0.dylib */,
+				71C0E89618CC16B400A2E476 /* CoreLocation.framework */,
+				71C0E89418CC0B2100A2E476 /* CoreBluetooth.framework */,
 				71C0E85C18CBF9E100A2E476 /* Foundation.framework */,
 				71C0E85E18CBF9E100A2E476 /* CoreGraphics.framework */,
 				71C0E86018CBF9E100A2E476 /* UIKit.framework */,
@@ -155,6 +183,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		71C0E89818D18EA200A2E476 /* FMDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				71C0E89918D18EEA00A2E476 /* FMDatabase.h */,
+				71C0E89A18D18EEA00A2E476 /* FMDatabase.m */,
+				71C0E89B18D18EEA00A2E476 /* FMDatabaseAdditions.h */,
+				71C0E89C18D18EEA00A2E476 /* FMDatabaseAdditions.m */,
+				71C0E89D18D18EEA00A2E476 /* FMDatabasePool.h */,
+				71C0E89E18D18EEA00A2E476 /* FMDatabasePool.m */,
+				71C0E89F18D18EEA00A2E476 /* FMDatabaseQueue.h */,
+				71C0E8A018D18EEA00A2E476 /* FMDatabaseQueue.m */,
+				71C0E8A118D18EEA00A2E476 /* FMResultSet.h */,
+				71C0E8A218D18EEA00A2E476 /* FMResultSet.m */,
+			);
+			name = FMDatabase;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -203,6 +248,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = nokkii;
 				TargetAttributes = {
+					71C0E85818CBF9E100A2E476 = {
+						DevelopmentTeam = ZU6NU78MMP;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					71C0E87C18CBF9E100A2E476 = {
 						TestTargetID = 71C0E85818CBF9E100A2E476;
 					};
@@ -255,8 +308,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				71C0E87618CBF9E100A2E476 /* testViewController.m in Sources */,
+				71C0E8A518D18EEA00A2E476 /* FMDatabasePool.m in Sources */,
 				71C0E86D18CBF9E100A2E476 /* testAppDelegate.m in Sources */,
+				71C0E8A618D18EEA00A2E476 /* FMDatabaseQueue.m in Sources */,
 				71C0E86918CBF9E100A2E476 /* main.m in Sources */,
+				71C0E8A318D18EEA00A2E476 /* FMDatabase.m in Sources */,
+				71C0E8A718D18EEA00A2E476 /* FMResultSet.m in Sources */,
+				71C0E8A418D18EEA00A2E476 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +451,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Motoki Arai (VDZRY5B8Y5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test2/test2-Prefix.pch";
 				INFOPLIST_FILE = "test2/test2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A092C2BD-6A88-498D-A6C6-D6AB1E077B3E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +467,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Motoki Arai (VDZRY5B8Y5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test2/test2-Prefix.pch";
 				INFOPLIST_FILE = "test2/test2-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A092C2BD-6A88-498D-A6C6-D6AB1E077B3E";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
