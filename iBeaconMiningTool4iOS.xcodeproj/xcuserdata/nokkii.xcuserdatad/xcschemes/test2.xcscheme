@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "71C0E85818CBF9E100A2E476"
                BuildableName = "test2.app"
-               BlueprintName = "test2"
-               ReferencedContainer = "container:test2.xcodeproj">
+               BlueprintName = "iBeaconMiningTool4iOS"
+               ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "71C0E87C18CBF9E100A2E476"
                BuildableName = "test2Tests.xctest"
-               BlueprintName = "test2Tests"
-               ReferencedContainer = "container:test2.xcodeproj">
+               BlueprintName = "iBeaconMiningTool4iOSTests"
+               ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C0E85818CBF9E100A2E476"
             BuildableName = "test2.app"
-            BlueprintName = "test2"
-            ReferencedContainer = "container:test2.xcodeproj">
+            BlueprintName = "iBeaconMiningTool4iOS"
+            ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C0E85818CBF9E100A2E476"
             BuildableName = "test2.app"
-            BlueprintName = "test2"
-            ReferencedContainer = "container:test2.xcodeproj">
+            BlueprintName = "iBeaconMiningTool4iOS"
+            ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C0E85818CBF9E100A2E476"
             BuildableName = "test2.app"
-            BlueprintName = "test2"
-            ReferencedContainer = "container:test2.xcodeproj">
+            BlueprintName = "iBeaconMiningTool4iOS"
+            ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -109,7 +109,7 @@
     //DBファイルのパス
     NSArray *paths = NSSearchPathForDirectoriesInDomains( NSDocumentDirectory, NSUserDomainMask, YES );
     NSString *dir   = [paths objectAtIndex:0];
-    //DBファイルがあるかどうか確認
+    //DBファイルがあるかどうか確認   
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if (![fileManager fileExistsAtPath:[dir stringByAppendingPathComponent:@"file.db"]])
     {
