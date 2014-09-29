@@ -33,6 +33,19 @@
 {
     NSLog(@"didDiscoverPeripheral: %@", peripheral);
 }
+// ユーザの位置情報の許可状態を確認するメソッド
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
+{
+    if (status == kCLAuthorizationStatusNotDetermined) {
+        // ユーザが位置情報の使用を許可していない
+    } else if(status == kCLAuthorizationStatusAuthorizedAlways) {
+        // ユーザが位置情報の使用を常に許可している場合
+        [locationManager startMonitoringForRegion: beaconRegion];
+    } else if(status == kCLAuthorizationStatusAuthorizedWhenInUse) {
+        // ユーザが位置情報の使用を使用中のみ許可している場合
+        [locationManager startMonitoringForRegion: beaconRegion];
+    }
+}
 
 - (void)locationManager:(CLLocationManager *)manager didDetermineState:(CLRegionState)state forRegion:(CLRegion *)region
 {
@@ -131,6 +144,14 @@
         proximityUUID = [[NSUUID alloc] initWithUUIDString:@"00000000-055E-1001-B000-001C4D736D7E"];
         beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:proximityUUID
                         identifier:@"jp.nokkii.test2"];
+        if ([locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
+            // requestAlwaysAuthorizationメソッドが利用できる場合(iOS8以上の場合)
+            // 位置情報の取得許可を求めるメソッド
+            [locationManager requestAlwaysAuthorization];
+        } else {
+            // requestAlwaysAuthorizationメソッドが利用できない場合(iOS8未満の場合)
+            [locationManager startMonitoringForRegion: beaconRegion];
+        }
         //beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:nil identifier:nil];
         [locationManager startMonitoringForRegion:beaconRegion];
     }
