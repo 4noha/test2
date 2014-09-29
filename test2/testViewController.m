@@ -49,18 +49,8 @@
 
 - (void)locationManager:(CLLocationManager *)manager didDetermineState:(CLRegionState)state forRegion:(CLRegion *)region
 {
-    
-    NSLog(@"didDiscoverPeripheral:");
-    switch (state) {
-        case CLRegionStateInside: // リージョン内にいる
-            if ([region isMemberOfClass:[CLBeaconRegion class]] && [CLLocationManager isRangingAvailable]) {
-                [locationManager startRangingBeaconsInRegion:beaconRegion];
-            }
-            break;
-        case CLRegionStateOutside:
-        case CLRegionStateUnknown:
-        default:
-            break;
+    if ([region isMemberOfClass:[CLBeaconRegion class]] && [CLLocationManager isRangingAvailable]) {
+        [locationManager startRangingBeaconsInRegion:beaconRegion];
     }
 }
 - (void)locationManager:(CLLocationManager*)manager didRangeBeacons:(NSArray*)beacons inRegion:(CLBeaconRegion*)region
