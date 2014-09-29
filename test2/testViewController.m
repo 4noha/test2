@@ -8,7 +8,7 @@
 
 #import "testViewController.h"
 
-@interface testViewController ()
+@interface testViewController () <CLLocationManagerDelegate>
 
 @end
 
@@ -70,7 +70,7 @@
              [NSString stringWithFormat:@"%@,%@",beacon.major.stringValue,beacon.minor.stringValue],
              [NSNumber numberWithDouble:latitude],
              [NSNumber numberWithDouble:longitude],
-             [NSNumber numberWithInt:beacon.rssi]];
+             [NSNumber numberWithLong:beacon.rssi]];
             [db commit];
         }
         
