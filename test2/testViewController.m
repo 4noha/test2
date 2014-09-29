@@ -133,7 +133,7 @@
         
         proximityUUID = [[NSUUID alloc] initWithUUIDString:@"00000000-055E-1001-B000-001C4D736D7E"];
         beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:proximityUUID
-                        identifier:@"jp.nokkii.test2"];
+                        identifier:@"jp.nokkii.ibeaconmigingtool4a"];
         if ([locationManager respondsToSelector:@selector(requestAlwaysAuthorization)]) {
             // requestAlwaysAuthorizationメソッドが利用できる場合(iOS8以上の場合)
             // 位置情報の取得許可を求めるメソッド

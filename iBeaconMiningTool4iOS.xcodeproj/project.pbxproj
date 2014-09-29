@@ -249,7 +249,7 @@
 				ORGANIZATIONNAME = nokkii;
 				TargetAttributes = {
 					71C0E85818CBF9E100A2E476 = {
-						DevelopmentTeam = ZU6NU78MMP;
+						DevelopmentTeam = 84W83CUN56;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -449,13 +449,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Motoki Arai (VDZRY5B8Y5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test2/iBeaconMiningTool4iOS-Prefix.pch";
 				INFOPLIST_FILE = "test2/iBeaconMiningTool4iOS-Info.plist";
 				PRODUCT_NAME = iBeaconMiningTool4iOS;
-				PROVISIONING_PROFILE = "1478928A-3312-4A35-AF60-E367FFB0A5DF";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -465,13 +465,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Motoki Arai (VDZRY5B8Y5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "test2/iBeaconMiningTool4iOS-Prefix.pch";
 				INFOPLIST_FILE = "test2/iBeaconMiningTool4iOS-Info.plist";
 				PRODUCT_NAME = iBeaconMiningTool4iOS;
-				PROVISIONING_PROFILE = "1478928A-3312-4A35-AF60-E367FFB0A5DF";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

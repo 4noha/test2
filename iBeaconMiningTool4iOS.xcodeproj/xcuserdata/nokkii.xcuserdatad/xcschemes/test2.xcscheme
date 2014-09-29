@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "71C0E85818CBF9E100A2E476"
-               BuildableName = "test2.app"
+               BuildableName = "iBeaconMiningTool4iOS.app"
                BlueprintName = "iBeaconMiningTool4iOS"
                ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "71C0E87C18CBF9E100A2E476"
-               BuildableName = "test2Tests.xctest"
+               BuildableName = "iBeaconMiningTool4iOSTests.xctest"
                BlueprintName = "iBeaconMiningTool4iOSTests"
                ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C0E85818CBF9E100A2E476"
-            BuildableName = "test2.app"
+            BuildableName = "iBeaconMiningTool4iOS.app"
             BlueprintName = "iBeaconMiningTool4iOS"
             ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C0E85818CBF9E100A2E476"
-            BuildableName = "test2.app"
+            BuildableName = "iBeaconMiningTool4iOS.app"
             BlueprintName = "iBeaconMiningTool4iOS"
             ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "71C0E85818CBF9E100A2E476"
-            BuildableName = "test2.app"
+            BuildableName = "iBeaconMiningTool4iOS.app"
             BlueprintName = "iBeaconMiningTool4iOS"
             ReferencedContainer = "container:iBeaconMiningTool4iOS.xcodeproj">
          </BuildableReference>
